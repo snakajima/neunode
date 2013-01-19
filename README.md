@@ -222,7 +222,7 @@ Options:
 
 - host: A domain name or IP address of the server to issue the request to. Defaults to 'localhost'.
 - port: Port of remote server. Defaults to 80.
-- method: method: A string specifying the HTTP request method. Defaults to 'GET'.
+- method: A string specifying the HTTP request method. Defaults to 'GET'.
 - headers: An object containing request headers.
 - path: Request path. Defaults to '/'. Should include query string if any. E.G. '/index.html?page=12'
 
