@@ -213,6 +213,7 @@ util.inherits(IncomingMessage, events.EventEmitter);
           _process_post_data(data);
         }
       } else {
+        socket._timeout = null;
         buffer += data;
         var index = buffer.indexOf(CRLF+CRLF);
         if (index > 0) {
@@ -258,6 +259,13 @@ util.inherits(IncomingMessage, events.EventEmitter);
           request = null;
           response = null;
           buffer = '';
+          var timerId = setTimeout(function() {
+            if (timerId == socket._timeout) {
+              socket.close();
+              console.log('http timeout', timerId);
+            }
+          }, 3 * 60 * 1000); // 3 minutes
+          socket._timeout = timerId;
         } else {
           socket.close();
         }
