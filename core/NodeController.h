@@ -36,7 +36,7 @@
 @property (nonatomic, strong) NSNetService* service; // bonjour
 @end
 
-@interface NodeController : UIViewController {
+@interface NodeController : UIViewController <MFMailComposeViewControllerDelegate> {
   IBOutlet UILabel *_labelSockets;
   IBOutlet UIBarButtonItem* _btnPlay, *_btnStop;
 
