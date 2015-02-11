@@ -16,7 +16,6 @@
 		7413999716A7027B00173A5B /* http.js in Resources */ = {isa = PBXBuildFile; fileRef = 7413998516A7027B00173A5B /* http.js */; };
 		7413999816A7027B00173A5B /* mime.js in Resources */ = {isa = PBXBuildFile; fileRef = 7413998616A7027B00173A5B /* mime.js */; };
 		7413999916A7027B00173A5B /* net.js in Resources */ = {isa = PBXBuildFile; fileRef = 7413998716A7027B00173A5B /* net.js */; };
-		7413999A16A7027B00173A5B /* neunode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7413998816A7027B00173A5B /* neunode.a */; };
 		7413999B16A7027B00173A5B /* path.js in Resources */ = {isa = PBXBuildFile; fileRef = 7413998A16A7027B00173A5B /* path.js */; };
 		7413999C16A7027B00173A5B /* punycode.js in Resources */ = {isa = PBXBuildFile; fileRef = 7413998B16A7027B00173A5B /* punycode.js */; };
 		7413999D16A7027B00173A5B /* querystring.js in Resources */ = {isa = PBXBuildFile; fileRef = 7413998C16A7027B00173A5B /* querystring.js */; };
@@ -55,6 +54,13 @@
 		7431151516850A720034A452 /* web.html in Resources */ = {isa = PBXBuildFile; fileRef = 7431151416850A720034A452 /* web.html */; };
 		7431151716851AE00034A452 /* video.html in Resources */ = {isa = PBXBuildFile; fileRef = 7431151616851AE00034A452 /* video.html */; };
 		7431151916851AE80034A452 /* video.js in Resources */ = {isa = PBXBuildFile; fileRef = 7431151816851AE80034A452 /* video.js */; };
+		74FBE65D1A8C185B002B94AB /* NodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FBE65B1A8C185B002B94AB /* NodeController.m */; };
+		74FBE65E1A8C185B002B94AB /* NodeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74FBE65C1A8C185B002B94AB /* NodeController.xib */; };
+		74FBE6611A8C1877002B94AB /* NodeServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FBE6601A8C1877002B94AB /* NodeServer.m */; };
+		74FBE6641A8C1888002B94AB /* NodeSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FBE6631A8C1888002B94AB /* NodeSocket.m */; };
+		74FBE6671A8C18A3002B94AB /* NodeConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FBE6661A8C18A3002B94AB /* NodeConnection.m */; };
+		74FBE66A1A8C18E8002B94AB /* BDHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FBE6691A8C18E8002B94AB /* BDHost.m */; };
+		74FBE66C1A8C1A1C002B94AB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74FBE66B1A8C1A1C002B94AB /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -120,6 +126,17 @@
 		7431151616851AE00034A452 /* video.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = video.html; sourceTree = "<group>"; };
 		7431151816851AE80034A452 /* video.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = video.js; sourceTree = "<group>"; };
 		74FBE65A1A8C15D0002B94AB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		74FBE65B1A8C185B002B94AB /* NodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeController.m; sourceTree = "<group>"; };
+		74FBE65C1A8C185B002B94AB /* NodeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NodeController.xib; sourceTree = "<group>"; };
+		74FBE65F1A8C1877002B94AB /* NodeServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeServer.h; sourceTree = "<group>"; };
+		74FBE6601A8C1877002B94AB /* NodeServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeServer.m; sourceTree = "<group>"; };
+		74FBE6621A8C1888002B94AB /* NodeSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeSocket.h; sourceTree = "<group>"; };
+		74FBE6631A8C1888002B94AB /* NodeSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeSocket.m; sourceTree = "<group>"; };
+		74FBE6651A8C18A3002B94AB /* NodeConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeConnection.h; sourceTree = "<group>"; };
+		74FBE6661A8C18A3002B94AB /* NodeConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeConnection.m; sourceTree = "<group>"; };
+		74FBE6681A8C18E8002B94AB /* BDHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDHost.h; sourceTree = "<group>"; };
+		74FBE6691A8C18E8002B94AB /* BDHost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDHost.m; sourceTree = "<group>"; };
+		74FBE66B1A8C1A1C002B94AB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,11 +144,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74FBE66C1A8C1A1C002B94AB /* MessageUI.framework in Frameworks */,
 				7416D3691683C5870002E6B4 /* CFNetwork.framework in Frameworks */,
 				7416D3401683C3BA0002E6B4 /* UIKit.framework in Frameworks */,
 				7416D3421683C3BA0002E6B4 /* Foundation.framework in Frameworks */,
 				7416D3441683C3BA0002E6B4 /* CoreGraphics.framework in Frameworks */,
-				7413999A16A7027B00173A5B /* neunode.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +158,17 @@
 		7413997E16A7027B00173A5B /* core */ = {
 			isa = PBXGroup;
 			children = (
+				74FBE6621A8C1888002B94AB /* NodeSocket.h */,
+				74FBE6631A8C1888002B94AB /* NodeSocket.m */,
+				74FBE65F1A8C1877002B94AB /* NodeServer.h */,
+				74FBE6601A8C1877002B94AB /* NodeServer.m */,
+				74FBE6651A8C18A3002B94AB /* NodeConnection.h */,
+				74FBE6661A8C18A3002B94AB /* NodeConnection.m */,
+				7413998916A7027B00173A5B /* NodeController.h */,
+				74FBE65B1A8C185B002B94AB /* NodeController.m */,
+				74FBE65C1A8C185B002B94AB /* NodeController.xib */,
+				74FBE6681A8C18E8002B94AB /* BDHost.h */,
+				74FBE6691A8C18E8002B94AB /* BDHost.m */,
 				7413997F16A7027B00173A5B /* assert.js */,
 				7413998016A7027B00173A5B /* dns.js */,
 				7413998116A7027B00173A5B /* events.js */,
@@ -151,7 +179,6 @@
 				7413998616A7027B00173A5B /* mime.js */,
 				7413998716A7027B00173A5B /* net.js */,
 				7413998816A7027B00173A5B /* neunode.a */,
-				7413998916A7027B00173A5B /* NodeController.h */,
 				7413998A16A7027B00173A5B /* path.js */,
 				7413998B16A7027B00173A5B /* punycode.js */,
 				7413998C16A7027B00173A5B /* querystring.js */,
@@ -185,6 +212,7 @@
 		7416D33E1683C3BA0002E6B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				74FBE66B1A8C1A1C002B94AB /* MessageUI.framework */,
 				7413997E16A7027B00173A5B /* core */,
 				7416D3911683C8770002E6B4 /* JSON */,
 				7416D3681683C5870002E6B4 /* CFNetwork.framework */,
@@ -345,6 +373,7 @@
 				7431150B1685092A0034A452 /* echo.html in Resources */,
 				7431150D168509330034A452 /* chat.html in Resources */,
 				7431151516850A720034A452 /* web.html in Resources */,
+				74FBE65E1A8C185B002B94AB /* NodeController.xib in Resources */,
 				7431151716851AE00034A452 /* video.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,13 +387,18 @@
 			files = (
 				7416D34C1683C3BA0002E6B4 /* main.m in Sources */,
 				7416D3501683C3BA0002E6B4 /* AppDelegate.m in Sources */,
+				74FBE6641A8C1888002B94AB /* NodeSocket.m in Sources */,
 				7416D39F1683C8770002E6B4 /* NSObject+SBJSON.m in Sources */,
+				74FBE6611A8C1877002B94AB /* NodeServer.m in Sources */,
 				7416D3A01683C8770002E6B4 /* NSString+SBJSON.m in Sources */,
 				7416D3A11683C8770002E6B4 /* SBJSON.m in Sources */,
 				7416D3A21683C8770002E6B4 /* SBJsonBase.m in Sources */,
 				7416D3A31683C8770002E6B4 /* SBJsonParser.m in Sources */,
+				74FBE65D1A8C185B002B94AB /* NodeController.m in Sources */,
+				74FBE6671A8C18A3002B94AB /* NodeConnection.m in Sources */,
 				7416D3A41683C8770002E6B4 /* SBJsonWriter.m in Sources */,
 				7416D3B71684EC360002E6B4 /* AppListController.m in Sources */,
+				74FBE66A1A8C18E8002B94AB /* BDHost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
