@@ -119,6 +119,7 @@
 		7431151416850A720034A452 /* web.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = web.html; sourceTree = "<group>"; };
 		7431151616851AE00034A452 /* video.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = video.html; sourceTree = "<group>"; };
 		7431151816851AE80034A452 /* video.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = video.js; sourceTree = "<group>"; };
+		74FBE65A1A8C15D0002B94AB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +166,7 @@
 		7416D3301683C3BA0002E6B4 = {
 			isa = PBXGroup;
 			children = (
+				74FBE65A1A8C15D0002B94AB /* README.md */,
 				7416D3A81683CB910002E6B4 /* root */,
 				7416D3451683C3BA0002E6B4 /* neunode */,
 				7416D33E1683C3BA0002E6B4 /* Frameworks */,

@@ -19,8 +19,7 @@ neu.Node enables new breeds of applications, such as:
 
 ## License
 
-All code is licensed
-under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
+All code is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php) for free to any individuals, schools, non-profit organizations and small corporations (less than $1M/year revenue).
 
 ## Support & Community
 
